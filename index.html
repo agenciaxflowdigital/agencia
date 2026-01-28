@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Meta -->
+    <title>Agência de Tráfego Pago em [CIDADE]/[UF] | XFlow Digital</title>
+    <meta name="description" content="Especialistas em Tráfego Pago, Gestão de Mídia e Criativos. Estratégias éticas e profissionais para vendas e branding. Solicite uma análise comercial.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.xflowdigital.com.br">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="XFlow Digital | Inteligência em Tráfego Pago">
+    <meta property="og:description" content="Gestão profissional de tráfego e performance. Fale com um especialista.">
+    <meta property="og:url" content="https://www.xflowdigital.com.br">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200">
+
+    <!-- Favicon (Generated SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2306276A'/><text x='50' y='65' font-family='Arial' font-size='40' font-weight='bold' fill='white' text-anchor='middle'>XF</text></svg>">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            primary: '#1454A4',
+                            navy: '#06276A',
+                            accent: '#338BD4',
+                            secondary: '#126AC9',
+                            light: '#EEF2F3',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    backgroundImage: {
+                        'tech-grid': "radial-gradient(circle, rgba(51,139,212,0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px)",
+                        'hero-glow': "radial-gradient(circle at 50% 50%, rgba(20, 84, 164, 0.25), transparent 70%)"
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* Smooth Fade In */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Tech Background Pattern */
+        .bg-tech {
+            background-color: #06276A;
+            background-image: 
+                linear-gradient(rgba(6, 39, 106, 0.95), rgba(6, 39, 106, 0.98)),
+                url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23338BD4' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        /* Glassmorphism */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(229, 231, 235, 0.5);
+            backdrop-filter: blur(10px);
+        }
+        
+        .dark-glass {
+            background: rgba(6, 39, 106, 0.6);
+            border: 1px solid rgba(51, 139, 212, 0.2);
+            backdrop-filter: blur(12px);
+        }
+
+        /* Gradient Text */
+        .text-gradient {
+            background: linear-gradient(90deg, #1454A4 0%, #338BD4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .text-gradient-light {
+            background: linear-gradient(90deg, #EEF2F3 0%, #338BD4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "XFlow Digital",
+      "image": "https://www.xflowdigital.com.br/logo.png",
+      "@id": "https://www.xflowdigital.com.br",
+      "url": "https://www.xflowdigital.com.br",
+      "telephone": "+55SEUDDDSEUNUMERO",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Principal, 1000",
+        "addressLocality": "[CIDADE]",
+        "addressRegion": "[UF]",
+        "postalCode": "00000-000",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -23.550520,
+        "longitude": -46.633308
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.instagram.com/xflowdigital",
+        "https://www.linkedin.com/company/xflowdigital"
+      ]
+    }
+    </script>
+</head>
+<body class="bg-brand-light text-slate-800 antialiased overflow-x-hidden">
+
+    <!-- 0. Navbar -->
+    <nav class="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-gray-100" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <svg class="h-10 w-10 text-brand-navy" viewBox="0 0 100 100" fill="currentColor">
+                        <rect width="100" height="100" rx="20" fill="#06276A"/>
+                        <path d="M30 30 L70 70 M70 30 L30 70" stroke="white" stroke-width="8" stroke-linecap="round"/>
+                    </svg>
+                    <span class="font-bold text-2xl tracking-tight text-brand-navy">XFlow<span class="text-brand-accent">Digital</span></span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#services" class="text-gray-600 hover:text-brand-primary font-medium transition">Serviços</a>
+                    <a href="#methodology" class="text-gray-600 hover:text-brand-primary font-medium transition">Como Funciona</a>
+                    <a href="#cases" class="text-gray-600 hover:text-brand-primary font-medium transition">Cases</a>
+                    <a href="#faq" class="text-gray-600 hover:text-brand-primary font-medium transition">Dúvidas</a>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden md:flex">
+                    <a href="https://wa.me/55SEUDDDSEUNUMERO?text=Oi%2C%20vim%20pelo%20site%20e%20quero%20uma%20an%C3%A1lise%20para%20vender%20mais%20com%20tr%C3%A1fego%20pago." 
+                       target="_blank"
+                       class="bg-brand-primary hover:bg-brand-navy text-white px-6 py-2.5 rounded-lg font-semibold transition shadow-lg shadow-brand-primary/20 flex items-center gap-2">
+                        <i class="fab fa-whatsapp"></i> Falar com Especialista
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-brand-navy focus:outline-none p-2">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2 shadow-xl">
+                <a href="#services" class="block px-3 py-3 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-md">Serviços</a>
+                <a href="#methodology" class="block px-3 py-3 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-md">Metodologia</a>
+                <a href="#cases" class="block px-3 py-3 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-md">Cases</a>
+                <a href="https://wa.me/55SEUDDDSEUNUMERO?text=Oi%2C%20vim%20pelo%20site..." class="block w-full text-center mt-4 bg-brand-primary text-white px-4 py-3 rounded-lg font-bold">
+                    <i class="fab fa-whatsapp mr-2"></i> Solicitar Análise
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-32 bg-tech overflow-hidden">
+        <!-- Decor Elements -->
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-brand-accent/5 blur-[120px] pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-1/3 h-1/2 bg-brand-primary/10 blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Content -->
+                <div class="text-center lg:text-left fade-in-up">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-navy/50 border border-brand-accent/30 text-brand-accent text-sm font-medium mb-6">
+                        <span class="relative flex h-2 w-2">
+                          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-accent opacity-75"></span>
+                          <span class="relative inline-flex rounded-full h-2 w-2 bg-brand-accent"></span>
+                        </span>
+                        Agência Especializada em Performance
+                    </div>
+                    
+                    <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-6">
+                        Transforme cliques em <br>
+                        <span class="text-gradient-light">Vendas Reais</span> e Previsíveis
+                    </h1>
+                    
+                    <p class="text-lg text-gray-300 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        Gestão profissional de tráfego pago, dados e criativos. Sem promessas vazias, apenas metodologia validada para escalar o seu negócio com segurança.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="https://wa.me/55SEUDDDSEUNUMERO?text=Oi%2C%20vim%20pelo%20site%20e%20quero%20uma%20an%C3%A1lise%20de%20tr%C3%A1fego." 
+                           class="bg-brand-secondary hover:bg-brand-primary text-white px-8 py-4 rounded-xl font-bold transition transform hover:scale-105 shadow-xl shadow-brand-primary/20 text-center">
+                            Solicitar Análise Gratuita
+                        </a>
+                        <a href="#services" class="px-8 py-4 rounded-xl border border-white/20 text-white hover:bg-white/10 transition font-medium text-center">
+                            Ver Nossos Serviços
+                        </a>
+                    </div>
+                    
+                    <div class="mt-8 flex items-center justify-center lg:justify-start gap-6 text-gray-400 text-sm">
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-check-circle text-brand-accent"></i> Transparência Total
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-check-circle text-brand-accent"></i> Foco em ROI
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Abstract Image -->
+                <div class="relative fade-in-up delay-100 hidden lg:block">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-brand-navy/40 backdrop-blur-sm p-4">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" 
+                             alt="Dashboard de Marketing e Dados" 
+                             class="rounded-lg shadow-inner opacity-90 w-full h-auto">
+                        
+                        <!-- Floating Badge -->
+                        <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl flex items-center gap-4 animate-bounce" style="animation-duration: 3s;">
+                            <div class="bg-green-100 p-3 rounded-full text-green-600">
+                                <i class="fas fa-chart-line text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500 font-semibold uppercase">Otimização Contínua</p>
+                                <p class="text-brand-navy font-bold text-lg">+ Performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Benefits Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="p-8 rounded-2xl bg-brand-light border border-gray-100 hover:shadow-lg transition duration-300 fade-in-up">
+                    <div class="w-14 h-14 bg-brand-primary/10 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-bullseye text-2xl text-brand-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-3">Estratégia Personalizada</h3>
+                    <p class="text-gray-600">Não usamos receitas de bolo. Analisamos seu mercado, concorrentes e objetivos para desenhar o funil ideal.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="p-8 rounded-2xl bg-brand-light border border-gray-100 hover:shadow-lg transition duration-300 fade-in-up delay-100">
+                    <div class="w-14 h-14 bg-brand-primary/10 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-laptop-code text-2xl text-brand-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-3">Dados & Rastreamento</h3>
+                    <p class="text-gray-600">Instalação profissional de pixels, API de conversão e UTMs. Você saberá exatamente para onde vai cada centavo.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="p-8 rounded-2xl bg-brand-light border border-gray-100 hover:shadow-lg transition duration-300 fade-in-up delay-200">
+                    <div class="w-14 h-14 bg-brand-primary/10 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-hand-holding-dollar text-2xl text-brand-primary"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-3">Foco em Vendas</h3>
+                    <p class="text-gray-600">Métricas de vaidade (likes/seguidores) não pagam contas. Nosso foco é gerar leads qualificados e vendas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Services Section -->
+    <section id="services" class="py-20 bg-gray-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-secondary font-semibold uppercase tracking-wider text-sm">O que fazemos</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mt-2">Soluções Completas de Crescimento</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:border-brand-accent/50 transition group">
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fab fa-facebook text-3xl text-blue-600 group-hover:scale-110 transition"></i>
+                        <i class="fab fa-google text-3xl text-red-500 group-hover:scale-110 transition ml-2"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Tráfego Pago (Ads)</h3>
+                    <p class="text-gray-600 text-sm">Gestão de campanhas no Meta Ads (Facebook/Instagram) e Google Ads. Segmentação avançada para atingir seu cliente ideal.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:border-brand-accent/50 transition group">
+                    <i class="fas fa-paint-brush text-3xl text-brand-secondary mb-4 group-hover:scale-110 transition block"></i>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Criativos de Alta Conversão</h3>
+                    <p class="text-gray-600 text-sm">Design estratégico e roteiros para vídeos. Criamos anúncios que chamam a atenção e geram cliques.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:border-brand-accent/50 transition group">
+                    <i class="fas fa-rocket text-3xl text-brand-secondary mb-4 group-hover:scale-110 transition block"></i>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Landing Pages Rápidas</h3>
+                    <p class="text-gray-600 text-sm">Páginas de alta performance, otimizadas para celular e focadas exclusivamente em conversão.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:border-brand-accent/50 transition group">
+                    <i class="fab fa-whatsapp text-3xl text-green-500 mb-4 group-hover:scale-110 transition block"></i>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Automação & CRM</h3>
+                    <p class="text-gray-600 text-sm">Integração de leads com seu WhatsApp e CRM. Organize seu comercial e não perca oportunidades.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:border-brand-accent/50 transition group">
+                    <i class="fas fa-chart-pie text-3xl text-brand-secondary mb-4 group-hover:scale-110 transition block"></i>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Business Intelligence</h3>
+                    <p class="text-gray-600 text-sm">Relatórios claros e dashboards em tempo real. Entenda o custo por lead (CPL) e o retorno (ROAS).</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:border-brand-accent/50 transition group">
+                    <i class="fas fa-user-tie text-3xl text-brand-secondary mb-4 group-hover:scale-110 transition block"></i>
+                    <h3 class="text-xl font-bold text-brand-navy mb-2">Consultoria de Vendas</h3>
+                    <p class="text-gray-600 text-sm">Não entregamos apenas o lead. Ajudamos a otimizar o roteiro de atendimento para fechar a venda.</p>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="https://wa.me/55SEUDDDSEUNUMERO?text=Tenho%20interesse%20nos%20servi%C3%A7os%20da%20XFlow." 
+                   class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-200 bg-brand-primary border border-transparent rounded-lg hover:bg-brand-navy focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-primary">
+                    Solicitar Orçamento Personalizado
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. How it Works (Methodology) -->
+    <section id="methodology" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-navy">Nosso Processo de Trabalho</h2>
+                <p class="mt-4 text-gray-600">Da análise inicial à escala das campanhas.</p>
+            </div>
+
+            <div class="relative">
+                <!-- Connecting Line (Desktop) -->
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-200 -z-10 transform -translate-y-1/2"></div>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <!-- Step 1 -->
+                    <div class="bg-white p-6 text-center group">
+                        <div class="w-16 h-16 mx-auto bg-brand-primary text-white rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg group-hover:scale-110 transition relative z-10">1</div>
+                        <h3 class="text-lg font-bold text-brand-navy mb-2">Onboarding</h3>
+                        <p class="text-gray-500 text-sm">Reunião de alinhamento, acesso às contas e definição de KPIs.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="bg-white p-6 text-center group">
+                        <div class="w-16 h-16 mx-auto bg-brand-light text-brand-primary border-2 border-brand-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg group-hover:scale-110 transition relative z-10">2</div>
+                        <h3 class="text-lg font-bold text-brand-navy mb-2">Setup & Tracking</h3>
+                        <p class="text-gray-500 text-sm">Configuração de Pixel, CAPI, catálogo de produtos e audiências.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="bg-white p-6 text-center group">
+                        <div class="w-16 h-16 mx-auto bg-brand-light text-brand-primary border-2 border-brand-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg group-hover:scale-110 transition relative z-10">3</div>
+                        <h3 class="text-lg font-bold text-brand-navy mb-2">Ativação</h3>
+                        <p class="text-gray-500 text-sm">Lançamento das campanhas com testes A/B de criativos e públicos.</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="bg-white p-6 text-center group">
+                        <div class="w-16 h-16 mx-auto bg-brand-light text-brand-primary border-2 border-brand-primary rounded-full flex items-center justify-center text-xl font-bold mb-4 shadow-lg group-hover:scale-110 transition relative z-10">4</div>
+                        <h3 class="text-lg font-bold text-brand-navy mb-2">Otimização</h3>
+                        <p class="text-gray-500 text-sm">Análise semanal, ajuste de orçamentos e relatórios de performance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Checklist Grid -->
+            <div class="mt-16 bg-brand-light rounded-2xl p-8 border border-gray-200">
+                <h3 class="text-center font-bold text-brand-navy mb-8">O que está incluso na entrega técnica:</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-gray-700">
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Pixel do Facebook</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Tag Manager</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> GA4 Configurado</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> API de Conversões</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Dashboard Looker</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Públicos Semelhantes</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Remarketing</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Hierarquia de Contas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Cases & Transparency (Compliance Focused) -->
+    <section id="cases" class="py-20 bg-brand-navy text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <!-- Left: Text -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Resultados Reais, Expectativas Alinhadas</h2>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        Acreditamos na transparência radical. O marketing digital é uma ferramenta de aceleração, mas depende da qualidade do seu produto e do seu atendimento comercial.
+                    </p>
+                    
+                    <div class="bg-white/10 p-6 rounded-lg border-l-4 border-brand-accent mb-8">
+                        <h4 class="font-bold text-brand-accent mb-2">Nosso Compromisso</h4>
+                        <p class="text-sm text-gray-300">
+                            Não prometemos "ROI garantido" ou "fique rico amanhã". Prometemos método, execução técnica impecável e busca incessante pela redução do custo de aquisição de cliente (CAC).
+                        </p>
+                    </div>
+
+                    <a href="https://wa.me/55SEUDDDSEUNUMERO?text=Quero%20entender%20como%20funciona%20para%20meu%20neg%C3%B3cio." 
+                       class="inline-block bg-white text-brand-navy px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition">
+                       Agendar Conversa Diagnóstica
+                    </a>
+                </div>
+
+                <!-- Right: Stats/Cards (Anonymized/Safe) -->
+                <div class="grid gap-6">
+                    <div class="glass-card dark-glass p-6 rounded-xl">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-brand-accent font-semibold text-sm">Setor de Serviços (Estética)</p>
+                                <h3 class="text-2xl font-bold mt-1">+145 Leads/mês</h3>
+                            </div>
+                            <i class="fas fa-arrow-up text-green-400 bg-green-400/20 p-2 rounded-lg"></i>
+                        </div>
+                        <p class="text-gray-400 text-sm mt-3">Estratégia: Meta Ads + WhatsApp Automático</p>
+                    </div>
+
+                    <div class="glass-card dark-glass p-6 rounded-xl">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-brand-accent font-semibold text-sm">E-commerce (Moda)</p>
+                                <h3 class="text-2xl font-bold mt-1">ROAS 4.5x</h3>
+                            </div>
+                            <i class="fas fa-shopping-cart text-blue-400 bg-blue-400/20 p-2 rounded-lg"></i>
+                        </div>
+                        <p class="text-gray-400 text-sm mt-3">Estratégia: Google Shopping + Remarketing Dinâmico</p>
+                    </div>
+                    
+                    <p class="text-xs text-gray-500 text-center italic">* Os resultados variam de acordo com o nicho, investimento e maturidade do negócio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. FAQ -->
+    <section id="faq" class="py-20 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-brand-navy mb-12">Perguntas Frequentes</h2>
+            
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-semibold text-brand-navy">Quanto preciso investir em anúncios?</span>
+                        <i class="fas fa-chevron-down text-brand-secondary transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-4 text-gray-600 text-sm">
+                        Recomendamos um investimento mínimo inicial que permita testar públicos e criativos com relevância estatística. Geralmente, sugerimos a partir de R$ 1.000,00/mês em mídia, mas isso varia conforme a cidade e o nicho.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-semibold text-brand-navy">Vocês garantem resultados?</span>
+                        <i class="fas fa-chevron-down text-brand-secondary transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-4 text-gray-600 text-sm">
+                        Nenhuma agência séria pode garantir resultados específicos, pois dependemos de algoritmos de terceiros (Google/Facebook) e do processo comercial da sua empresa. Garantimos a melhor execução técnica, estratégia e transparência total.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-semibold text-brand-navy">Existe contrato de fidelidade?</span>
+                        <i class="fas fa-chevron-down text-brand-secondary transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-4 text-gray-600 text-sm">
+                        Trabalhamos com contratos flexíveis. Acreditamos que você deve ficar conosco pelos resultados que entregamos, não porque está preso a uma cláusula contratual.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex justify-between items-center focus:outline-none">
+                        <span class="font-semibold text-brand-navy">O que preciso para começar?</span>
+                        <i class="fas fa-chevron-down text-brand-secondary transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-4 text-gray-600 text-sm">
+                        Você precisa de um site ou página de vendas (se não tiver, nós fazemos), acesso às contas do Facebook/Google e disponibilidade para atender os leads que chegarem.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Final CTA -->
+    <section class="py-20 bg-gradient-to-br from-brand-primary to-brand-navy text-white text-center px-4">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">Pronto para escalar suas vendas?</h2>
+            <p class="text-xl text-blue-100 mb-10">Solicite uma análise da sua presença digital agora mesmo.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/55SEUDDDSEUNUMERO?text=Oi%2C%20quero%20come%C3%A7ar%20meu%20projeto%20de%20tr%C3%A1fego." 
+                   class="bg-green-500 hover:bg-green-600 text-white text-lg px-10 py-4 rounded-xl font-bold transition shadow-lg flex items-center justify-center gap-3">
+                    <i class="fab fa-whatsapp text-2xl"></i> Chamar no WhatsApp
+                </a>
+                
+                <!-- Optional Local Button -->
+                <a href="https://goo.gl/maps/SEU_LINK_GOOGLE_MAPS" 
+                   target="_blank"
+                   class="bg-white/10 hover:bg-white/20 text-white text-lg px-10 py-4 rounded-xl font-bold transition flex items-center justify-center gap-3">
+                    <i class="fas fa-map-marker-alt"></i> Como Chegar
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Brand -->
+                <div>
+                    <span class="text-2xl font-bold text-white block mb-4">XFlow Digital</span>
+                    <p class="text-sm">Agência de performance focada em resultados reais através de tráfego pago e inteligência de dados.</p>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Contato</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><i class="fas fa-envelope w-6"></i> contato@xflowdigital.com.br</li>
+                        <li><i class="fas fa-phone w-6"></i> (DDD) 99999-9999</li>
+                        <li><i class="fas fa-map-pin w-6"></i> Av. Principal, 1000 - [CIDADE]/[UF]</li>
+                    </ul>
+                </div>
+
+                <!-- Links -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-brand-accent transition">Política de Privacidade</a></li>
+                        <li><a href="#" class="hover:text-brand-accent transition">Termos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-slate-800 pt-8 text-center text-sm">
+                <p>&copy; 2024 XFlow Digital. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/55SEUDDDSEUNUMERO?text=Oi%2C%20preciso%20de%20ajuda%20com%20meus%20an%C3%BAncios." 
+       class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl transition transform hover:scale-110 flex items-center justify-center group"
+       aria-label="Fale conosco no WhatsApp">
+        <i class="fab fa-whatsapp text-3xl"></i>
+        <span class="absolute right-full mr-4 bg-white text-gray-800 px-3 py-1 rounded-lg text-sm font-bold shadow-lg opacity-0 group-hover:opacity-100 transition whitespace-nowrap hidden md:block">
+            Fale Agora
+        </span>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // FAQ Accordion
+        const faqBtns = document.querySelectorAll('.faq-btn');
+        
+        faqBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const content = btn.nextElementSibling;
+                const icon = btn.querySelector('i');
+                
+                // Close others
+                document.querySelectorAll('.faq-content').forEach(c => {
+                    if (c !== content) c.classList.add('hidden');
+                });
+                document.querySelectorAll('.faq-btn i').forEach(i => {
+                    if (i !== icon) i.classList.remove('rotate-180');
+                });
+
+                // Toggle current
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+
+        // Intersection Observer for Animations
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in-up').forEach((el) => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
